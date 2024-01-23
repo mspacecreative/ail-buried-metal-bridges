@@ -1,0 +1,41 @@
+.top-bottom-padding--20 {
+  padding-block: $spacing20;
+}
+.top-bottom-padding--30 {
+  padding-block: $spacing30;
+}
+.top-bottom-padding--40 {
+  padding-block: $spacing40;
+}
+.top-padding--20 {
+  padding-block-start: $spacing20;
+}
+.top-padding--30 {
+  padding-block-start: $spacing30;
+}
+.top-padding--40 {
+  padding-block-start: $spacing40;
+}
+.bottom-padding--20 {
+  padding-block-end: $spacing20;
+}
+.bottom-padding--30 {
+  padding-block-end: $spacing30;
+}
+.bottom-padding--40 {
+  padding-block-end: $spacing40;
+}
+.padding--20 {
+  padding: $spacing20;
+}
+.padding--30 {
+  padding: $spacing30;
+}
+.padding--40 {
+  padding: $spacing40;
+}
+
+.max-width--550 {
+  margin-inline: auto;
+  max-width: 550px;
+}
