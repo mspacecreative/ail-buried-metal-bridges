@@ -1,5 +1,9 @@
 .logo-container {
-  @media (max-width: 768px) {
+  .site-logo--container {
+    width: 100%;
+    max-width: 400px;
+  }
+  @media (max-width: 880px) {
     .wp-container-core-group-layout-4.wp-container-core-group-layout-4 {
       justify-content: center;
       gap: 2rem;
