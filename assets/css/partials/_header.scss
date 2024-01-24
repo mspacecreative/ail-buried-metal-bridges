@@ -16,5 +16,11 @@
         width: 130px !important;
       }
     }
+    .wp-block-site-logo {
+      width: 100%;
+      a {
+        display: block;
+      }
+    }
   }
 }
