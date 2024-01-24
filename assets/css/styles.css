@@ -11,16 +11,14 @@
   grid-template-columns: 25% 25% 25% 25%;
   -webkit-margin-before: 0;
           margin-block-start: 0;
-  max-width: 1920px;
-  margin-inline: auto;
 }
 
 .max-height--300px {
-  max-height: 300px;
+  max-height: 30vh;
 }
 
 .max-height--600px {
-  max-height: 600px;
+  max-height: 60vh;
 }
 
 .expand-horizontal--two-col__left {
