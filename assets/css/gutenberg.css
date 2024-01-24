@@ -41,7 +41,7 @@
   -webkit-margin-after: 0;
           margin-block-end: 0;
 }
-@media (max-width: 1440px) {
+@media (max-width: 1600px) {
   .editor-styles-wrapper .bg-yellow .has-x-large-font-size {
     font-size: 30px !important;
   }
