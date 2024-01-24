@@ -19,10 +19,10 @@ if ($images) :
     <div class="max-height--300px grid-item expand-horizontal-on-mobile--two-col__right">
         <img src="<?php echo esc_url($images[3]['url']); ?>" alt="<?php echo esc_attr($images[3]['alt']); ?>" />
     </div>
-    <div class="max-height--300px grid-item full-width-on-mobile">
+    <div class="max-height--300px grid-item expand-horizontal-on-mobile--two-col__left">
         <img src="<?php echo esc_url($images[4]['url']); ?>" alt="<?php echo esc_attr($images[4]['alt']); ?>" />
     </div>
-    <div class="max-height--300px grid-item full-width-on-mobile">
+    <div class="max-height--300px grid-item expand-horizontal-on-mobile--two-col__right">
         <img src="<?php echo esc_url($images[5]['url']); ?>" alt="<?php echo esc_attr($images[5]['alt']); ?>" />
     </div>
     <div class="max-height--300px grid-item expand-horizontal--two-col__left">
