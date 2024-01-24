@@ -175,6 +175,15 @@ p {
   background-size: cover;
   background-position: top -150px center;
 }
+@media (max-width: 768px) {
+  .buried-bridges--footer p {
+    flex-basis: 100%;
+    text-align: center;
+  }
+  .buried-bridges--footer .wp-container-core-group-layout-6.wp-container-core-group-layout-6 {
+    justify-content: center;
+  }
+}
 @media (max-width: 480px) {
   .buried-bridges--footer {
     background-position: top center;
