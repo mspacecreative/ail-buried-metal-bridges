@@ -3,8 +3,8 @@
     width: 100%;
     max-width: 400px;
   }
-  .wp-block-site-logo img {
-    width: auto;
+  .wp-block-site-logo a {
+    display: block;
   }
   @media (max-width: 880px) {
     .wp-container-core-group-layout-4.wp-container-core-group-layout-4 {
@@ -19,9 +19,6 @@
       width: 100%;
       max-width: 300px;
       margin-inline: auto;
-      a {
-        display: block;
-      }
     }
   }
   @media (max-width: 480px) {
