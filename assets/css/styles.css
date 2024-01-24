@@ -175,7 +175,7 @@ p {
   background-size: cover;
   background-position: top -150px center;
 }
-@media (max-width: 768px) {
+@media (max-width: 980px) {
   .buried-bridges--footer p {
     flex-basis: 100%;
     text-align: center;
