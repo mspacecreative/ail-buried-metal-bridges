@@ -14,7 +14,7 @@ if ($images) :
         <img src="<?php echo esc_url($images[2]['url']); ?>" alt="<?php echo esc_attr($images[2]['alt']); ?>" />
     </div>
     <div class="bg-yellow padding--40 max-height--600px grid-item expand-vertical expand-horizontal--two-col__center align-items-center full-width-on-mobile">
-        <div class="text-align-center has-large-font-size font-style--italic max-width--800"><?php echo get_field('hero_copy'); ?></div>
+        <div class="text-align-center has-x-large-font-size font-style--italic max-width--800"><?php echo get_field('hero_copy'); ?></div>
     </div>
     <div class="max-height--300px grid-item expand-horizontal-on-mobile--two-col__right">
         <img src="<?php echo esc_url($images[3]['url']); ?>" alt="<?php echo esc_attr($images[3]['alt']); ?>" />
