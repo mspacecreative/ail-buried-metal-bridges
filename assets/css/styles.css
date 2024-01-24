@@ -77,6 +77,12 @@
   -webkit-margin-after: 0;
           margin-block-end: 0;
 }
+@media (max-width: 880px) {
+  .bg-yellow {
+    font-size: 22px !important;
+    padding: var(--wp--preset--spacing--50);
+  }
+}
 
 .font--semibold {
   font-weight: 600;
