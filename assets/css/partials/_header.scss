@@ -8,18 +8,20 @@
       order: -1;
       flex-basis: 100%;
     }
+    .wp-block-site-logo {
+      width: 100%;
+      max-width: 300px;
+      margin-inline: auto;
+      a {
+        display: block;
+      }
+    }
   }
   @media (max-width: 480px) {
     .dal-logo,
     .ohiou-logo {
       > img {
         width: 130px !important;
-      }
-    }
-    .wp-block-site-logo {
-      width: 100%;
-      a {
-        display: block;
       }
     }
   }

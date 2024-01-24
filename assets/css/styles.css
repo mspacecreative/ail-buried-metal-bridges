@@ -211,16 +211,18 @@ footer {
     order: -1;
     flex-basis: 100%;
   }
+  .logo-container .wp-block-site-logo {
+    width: 100%;
+    max-width: 300px;
+    margin-inline: auto;
+  }
+  .logo-container .wp-block-site-logo a {
+    display: block;
+  }
 }
 @media (max-width: 480px) {
   .logo-container .dal-logo > img,
 .logo-container .ohiou-logo > img {
     width: 130px !important;
-  }
-  .logo-container .wp-block-site-logo {
-    width: 100%;
-  }
-  .logo-container .wp-block-site-logo a {
-    display: block;
   }
 }
