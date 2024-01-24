@@ -204,6 +204,9 @@ footer {
   width: 100%;
   max-width: 400px;
 }
+.logo-container .wp-block-site-logo img {
+  width: auto;
+}
 @media (max-width: 880px) {
   .logo-container .wp-container-core-group-layout-4.wp-container-core-group-layout-4 {
     justify-content: center;
