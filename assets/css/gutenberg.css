@@ -76,7 +76,7 @@
   font-family: "myriad-pro", sans-serif;
   font-weight: 400;
 }
-.editor-styles-wrapper body > * {
+.editor-styles-wrapper body * {
   font-family: "myriad-pro", sans-serif;
 }
 .editor-styles-wrapper .text-align-center {
