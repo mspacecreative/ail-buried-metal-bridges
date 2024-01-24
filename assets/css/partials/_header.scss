@@ -9,4 +9,12 @@
       flex-basis: 100%;
     }
   }
+  @media (max-width: 480px) {
+    .dal-logo,
+    .ohiou-logo {
+      > img {
+        width: 130px !important;
+      }
+    }
+  }
 }

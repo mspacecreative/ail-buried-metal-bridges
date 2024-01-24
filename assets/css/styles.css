@@ -212,3 +212,9 @@ footer {
     flex-basis: 100%;
   }
 }
+@media (max-width: 480px) {
+  .logo-container .dal-logo > img,
+.logo-container .ohiou-logo > img {
+    width: 130px !important;
+  }
+}
