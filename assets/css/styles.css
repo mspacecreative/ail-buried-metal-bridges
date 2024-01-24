@@ -11,8 +11,12 @@
   padding: 0.5rem;
   text-align: center;
   margin-inline: auto;
-  display: flex;
   justify-content: center;
+}
+@media (max-width: 600px) {
+  .main-navigation button:not(.wp-block-navigation__responsive-container-close) {
+    display: flex;
+  }
 }
 
 .grid-container {
