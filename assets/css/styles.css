@@ -205,10 +205,10 @@ footer {
 @media (max-width: 768px) {
   .logo-container .wp-container-core-group-layout-4.wp-container-core-group-layout-4 {
     justify-content: center;
-    flex-wrap: wrap;
     gap: 2rem;
   }
   .logo-container .site-logo--container {
     order: -1;
+    flex-basis: 100%;
   }
 }
