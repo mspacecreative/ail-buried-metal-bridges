@@ -13,7 +13,7 @@
   margin-inline: auto;
   justify-content: center;
 }
-@media (max-width: 600px) {
+@media (max-width: 599px) {
   .main-navigation button:not(.wp-block-navigation__responsive-container-close) {
     display: flex;
   }
