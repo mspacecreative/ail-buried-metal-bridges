@@ -3,6 +3,9 @@
     center scroll;
   background-size: cover;
   background-position: top -150px center;
+  @media (max-width: 480px) {
+    background-position: top center;
+  }
 }
 
 footer {

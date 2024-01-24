@@ -175,6 +175,11 @@ p {
   background-size: cover;
   background-position: top -150px center;
 }
+@media (max-width: 480px) {
+  .buried-bridges--footer {
+    background-position: top center;
+  }
+}
 
 footer {
   -webkit-margin-before: 0;
