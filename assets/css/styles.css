@@ -96,6 +96,9 @@ body {
   font-family: "myriad-pro", sans-serif;
   font-weight: 400;
 }
+body > * {
+  font-family: "myriad-pro", sans-serif;
+}
 
 .text-align-center {
   text-align: center;
