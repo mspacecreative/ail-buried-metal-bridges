@@ -4,7 +4,7 @@
   -webkit-margin-before: 0;
           margin-block-start: 0;
 }
-@media (min-width: 780px) {
+@media (min-width: 980px) {
   .editor-styles-wrapper .max-height--300px {
     max-height: 30vh;
   }

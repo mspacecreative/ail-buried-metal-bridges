@@ -13,7 +13,7 @@
           margin-block-start: 0;
 }
 
-@media (min-width: 780px) {
+@media (min-width: 980px) {
   .max-height--300px {
     max-height: 30vh;
   }
