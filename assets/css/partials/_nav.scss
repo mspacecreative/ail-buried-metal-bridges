@@ -6,7 +6,7 @@
     font-weight: 600;
     font-size: 20px;
   }
-  button {
+  button:not(.wp-block-navigation__responsive-container-close) {
     width: 100%;
     height: 100%;
     padding: 0.5rem;
