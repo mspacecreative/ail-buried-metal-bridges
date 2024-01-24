@@ -192,6 +192,9 @@ p {
     flex-basis: 100%;
     text-align: center;
   }
+  .buried-bridges--footer.top-bottom-padding--20 {
+    padding-block: var(--wp--preset--spacing--50);
+  }
 }
 
 footer {
