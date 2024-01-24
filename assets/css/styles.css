@@ -78,8 +78,10 @@
           margin-block-end: 0;
 }
 @media (max-width: 880px) {
-  .bg-yellow {
+  .bg-yellow .has-x-large-font-size {
     font-size: 22px !important;
+  }
+  .bg-yellow.padding--40 {
     padding: var(--wp--preset--spacing--50);
   }
 }

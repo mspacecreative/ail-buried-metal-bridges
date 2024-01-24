@@ -53,8 +53,12 @@
     }
   }
   @media (max-width: 880px) {
-    font-size: 22px !important;
-    padding: $spacing50;
+    .has-x-large-font-size {
+      font-size: 22px !important;
+    }
+    &.padding--40 {
+      padding: $spacing50;
+    }
   }
 }
 .font--semibold {
