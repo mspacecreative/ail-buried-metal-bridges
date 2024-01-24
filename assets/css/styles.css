@@ -188,6 +188,10 @@ p {
   .buried-bridges--footer {
     background-position: top center;
   }
+  .buried-bridges--footer .wp-block-image {
+    flex-basis: 100%;
+    text-align: center;
+  }
 }
 
 footer {
