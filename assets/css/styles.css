@@ -13,14 +13,14 @@
           margin-block-start: 0;
 }
 
-.max-height--300px {
-  max-height: 30vh;
+@media (min-width: 780px) {
+  .max-height--300px {
+    max-height: 30vh;
+  }
+  .max-height--600px {
+    max-height: 60vh;
+  }
 }
-
-.max-height--600px {
-  max-height: 60vh;
-}
-
 .expand-horizontal--two-col__left {
   grid-column: 1/3;
 }

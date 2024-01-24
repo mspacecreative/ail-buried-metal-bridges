@@ -5,11 +5,13 @@
   // max-width: 1920px;
   // margin-inline: auto;
 }
-.max-height--300px {
-  max-height: 30vh;
-}
-.max-height--600px {
-  max-height: 60vh;
+@media (min-width: 780px) {
+  .max-height--300px {
+    max-height: 30vh;
+  }
+  .max-height--600px {
+    max-height: 60vh;
+  }
 }
 .expand-horizontal--two-col__left {
   grid-column: 1/3;
