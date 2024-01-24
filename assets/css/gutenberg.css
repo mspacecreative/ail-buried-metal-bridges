@@ -6,7 +6,7 @@
 }
 @media (min-width: 980px) {
   .editor-styles-wrapper .max-height--300px {
-    height: 32vh;
+    height: 300px;
   }
 }
 .editor-styles-wrapper .expand-horizontal--two-col__left {
