@@ -57,15 +57,7 @@
 
 .grid-item {
   position: relative;
-}
-
-.banner {
-  position: absolute;
-  top: 0;
-  left: 0;
-  padding: 1rem;
-  width: calc(100% - 2rem);
-  text-align: center;
+  box-sizing: border-box;
 }
 
 .caption {
@@ -187,6 +179,11 @@ p {
 .max-width--550 {
   margin-inline: auto;
   max-width: 550px;
+}
+
+.max-width--800 {
+  margin-inline: auto;
+  max-width: 800px;
 }
 
 .buried-bridges--footer {

@@ -23,14 +23,7 @@
 }
 .editor-styles-wrapper .grid-item {
   position: relative;
-}
-.editor-styles-wrapper .banner {
-  position: absolute;
-  top: 0;
-  left: 0;
-  padding: 1rem;
-  width: calc(100% - 2rem);
-  text-align: center;
+  box-sizing: border-box;
 }
 .editor-styles-wrapper .caption {
   bottom: 0;

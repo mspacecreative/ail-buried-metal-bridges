@@ -27,15 +27,16 @@
 }
 .grid-item {
   position: relative;
+  box-sizing: border-box;
 }
-.banner {
-  position: absolute;
-  top: 0;
-  left: 0;
-  padding: 1rem;
-  width: calc(100% - 2rem);
-  text-align: center;
-}
+// .banner {
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   padding: 1rem;
+//   width: calc(100% - 2rem);
+//   text-align: center;
+// }
 .caption {
   bottom: 0;
   right: 0;
