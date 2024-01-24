@@ -14,6 +14,10 @@
     .site-logo--container {
       order: -1;
       flex-basis: 100%;
+      max-width: 100%;
+    }
+    > .wp-container-core-group-layout-2.wp-container-core-group-layout-2 {
+      flex-wrap: wrap;
     }
     .wp-block-site-logo {
       width: 100%;
