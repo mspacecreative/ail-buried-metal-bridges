@@ -15,10 +15,7 @@
 
 @media (min-width: 980px) {
   .max-height--300px {
-    max-height: 40vh;
-  }
-  .max-height--600px {
-    max-height: 80vh;
+    height: 32vh;
   }
 }
 .expand-horizontal--two-col__left {

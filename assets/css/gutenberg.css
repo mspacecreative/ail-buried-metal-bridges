@@ -6,10 +6,7 @@
 }
 @media (min-width: 980px) {
   .editor-styles-wrapper .max-height--300px {
-    max-height: 40vh;
-  }
-  .editor-styles-wrapper .max-height--600px {
-    max-height: 80vh;
+    height: 32vh;
   }
 }
 .editor-styles-wrapper .expand-horizontal--two-col__left {
