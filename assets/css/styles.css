@@ -22,7 +22,8 @@
     display: flex;
   }
 }
-.main-navigation .wp-block-navigation__container {
+.main-navigation .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .wp-block-navigation__container,
+.main-navigation .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .wp-block-navigation__submenu-container {
   row-gap: 1rem;
 }
 
