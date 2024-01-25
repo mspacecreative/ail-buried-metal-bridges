@@ -219,7 +219,6 @@ p {
 
 .max-width--900 {
   margin-inline: auto;
-  max-width: 90%;
 }
 @media (min-width: 1920px) {
   .max-width--900 {
