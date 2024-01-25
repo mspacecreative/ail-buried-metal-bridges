@@ -39,6 +39,11 @@
     height: 300px;
   }
 }
+@media (min-width: 1920px) {
+  .max-height--300px {
+    height: 32vh;
+  }
+}
 .expand-horizontal--two-col__left {
   grid-column: 1/3;
 }
@@ -76,11 +81,6 @@
 .bg-yellow p:last-of-type {
   -webkit-margin-after: 0;
           margin-block-end: 0;
-}
-@media (min-width: 1920px) {
-  .bg-yellow .max-height--300px {
-    height: 32vh;
-  }
 }
 @media (max-width: 1600px) {
   .bg-yellow .has-x-large-font-size {
