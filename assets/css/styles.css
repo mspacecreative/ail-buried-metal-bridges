@@ -1,6 +1,6 @@
 .main-navigation {
-  -webkit-margin-before: 1rem;
-          margin-block-start: 1rem;
+  -webkit-margin-before: var(--wp--preset--spacing--20);
+          margin-block-start: var(--wp--preset--spacing--20);
 }
 .main-navigation ul.wp-block-page-list {
   padding-block: 0;
