@@ -255,7 +255,7 @@ footer {
 @media (max-width: 880px) {
   .logo-container .wp-container-core-group-layout-4.wp-container-core-group-layout-4 {
     justify-content: center;
-    gap: 2rem;
+    gap: var(--wp--preset--spacing--40);
   }
   .logo-container .site-logo--container {
     order: -1;

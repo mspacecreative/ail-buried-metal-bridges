@@ -110,7 +110,7 @@
 @media (max-width: 880px) {
   .editor-styles-wrapper .logo-container .wp-container-core-group-layout-4.wp-container-core-group-layout-4 {
     justify-content: center;
-    gap: 2rem;
+    gap: var(--wp--preset--spacing--40);
   }
   .editor-styles-wrapper .logo-container .site-logo--container {
     order: -1;
