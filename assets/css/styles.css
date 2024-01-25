@@ -221,6 +221,16 @@ p {
   margin-inline: auto;
   max-width: 90%;
 }
+@media (min-width: 1920px) {
+  .max-width--900 {
+    max-width: 80%;
+  }
+}
+@media (max-width: 980px) {
+  .max-width--900 {
+    max-width: 100%;
+  }
+}
 
 .buried-bridges--footer {
   background: url(../img/textures/Brushed-metal-light.jpg) no-repeat center center scroll;
