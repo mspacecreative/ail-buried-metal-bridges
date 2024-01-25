@@ -80,6 +80,10 @@
 @media (max-width: 1600px) {
   .bg-yellow .has-x-large-font-size {
     font-size: 30px !important;
+  }
+}
+@media (max-width: 1100px) {
+  .bg-yellow .has-x-large-font-size {
     line-height: 1.35em;
   }
 }
