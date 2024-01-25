@@ -210,7 +210,7 @@ p {
 
 .max-width--900 {
   margin-inline: auto;
-  max-width: 900px;
+  max-width: 90%;
 }
 
 .buried-bridges--footer {
