@@ -1,8 +1,7 @@
 .editor-styles-wrapper .grid-container {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
-  -webkit-margin-before: 0;
-          margin-block-start: 0;
+  margin-block-start: 0;
 }
 @media (min-width: 980px) {
   .editor-styles-wrapper .max-height--300px {
@@ -39,12 +38,10 @@
   background-color: var(--wp--preset--color--gold);
 }
 .editor-styles-wrapper .bg-yellow p:first-of-type {
-  -webkit-margin-before: 0;
-          margin-block-start: 0;
+  margin-block-start: 0;
 }
 .editor-styles-wrapper .bg-yellow p:last-of-type {
-  -webkit-margin-after: 0;
-          margin-block-end: 0;
+  margin-block-end: 0;
 }
 @media (max-width: 1600px) {
   .editor-styles-wrapper .bg-yellow .has-x-large-font-size {
@@ -137,7 +134,7 @@
 }
 @media (max-width: 480px) {
   .editor-styles-wrapper .logo-container .dal-logo > img,
-.editor-styles-wrapper .logo-container .ohiou-logo > img {
+  .editor-styles-wrapper .logo-container .ohiou-logo > img {
     width: 130px !important;
   }
 }
@@ -168,6 +165,5 @@
   }
 }
 .editor-styles-wrapper footer {
-  -webkit-margin-before: 0;
-          margin-block-start: 0;
+  margin-block-start: 0;
 }
