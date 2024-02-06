@@ -1,6 +1,5 @@
 ul.main-navigation {
   padding: 0;
-  margin-block-start: var(--wp--preset--spacing--20);
 }
 ul.main-navigation ul.wp-block-page-list {
   padding-block: 0;
