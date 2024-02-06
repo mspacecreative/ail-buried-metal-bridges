@@ -1,6 +1,4 @@
 .main-navigation {
-  padding: 0;
-  // margin-block-start: $spacing20;
   ul.wp-block-page-list {
     padding-block: 0;
   }
@@ -27,4 +25,8 @@
     .wp-block-navigation__submenu-container {
     row-gap: 1rem;
   }
+}
+
+ul.main-navigation {
+  padding: 0;
 }
