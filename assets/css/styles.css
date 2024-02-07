@@ -298,13 +298,13 @@ footer {
 .mobile-only {
   display: none;
 }
-@media (max-width: 480px) {
+@media (max-width: 960px) and (orientation: landscape) {
   .mobile-only {
     display: block;
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 960px) and (orientation: landscape) {
   .desktop-only {
     display: none;
   }
