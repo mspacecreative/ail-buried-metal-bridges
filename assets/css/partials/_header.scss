@@ -34,3 +34,16 @@
     }
   }
 }
+
+.mobile-only {
+  display: none;
+  @media (max-width: 480px) {
+    display: block;
+  }
+}
+
+.desktop-only {
+  @media (max-width: 480px) {
+    display: none;
+  }
+}

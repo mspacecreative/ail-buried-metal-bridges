@@ -138,6 +138,19 @@
     width: 130px !important;
   }
 }
+.editor-styles-wrapper .mobile-only {
+  display: none;
+}
+@media (max-width: 480px) {
+  .editor-styles-wrapper .mobile-only {
+    display: block;
+  }
+}
+@media (max-width: 480px) {
+  .editor-styles-wrapper .desktop-only {
+    display: none;
+  }
+}
 .editor-styles-wrapper .buried-bridges--footer {
   background: url(../img/textures/Brushed-metal-light.jpg) no-repeat center center scroll;
   background-size: cover;

@@ -295,6 +295,21 @@ footer {
   }
 }
 
+.mobile-only {
+  display: none;
+}
+@media (max-width: 480px) {
+  .mobile-only {
+    display: block;
+  }
+}
+
+@media (max-width: 480px) {
+  .desktop-only {
+    display: none;
+  }
+}
+
 .data-table table {
   max-width: 500px;
 }
