@@ -294,3 +294,11 @@ footer {
     width: 130px !important;
   }
 }
+
+.data-table table {
+  max-width: 500px;
+}
+.data-table td {
+  white-space: nowrap;
+  padding-bottom: 1em;
+}
