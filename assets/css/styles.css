@@ -343,3 +343,16 @@ footer {
 body:not(.page-id-70, .page-id-66) .grecaptcha-badge {
   display: none;
 }
+
+.keywords-select {
+  width: 100%;
+  padding: 0.5rem;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: transparent;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMTAwMCAxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPg0KICA8cGF0aCBmaWxsPSJncmF5IiBkPSJNMTAsMjMyLjdsNDkwLDUzNC41bDQ5MC01MzQuNUgxMHoiIC8+DQo8L3N2Zz4=);
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 10px;
+}
