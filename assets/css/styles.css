@@ -150,6 +150,10 @@ p {
   letter-spacing: -0.015em;
 }
 
+body * {
+  box-sizing: border-box;
+}
+
 .top-bottom-padding--20 {
   padding-block: var(--wp--preset--spacing--20);
 }
@@ -365,4 +369,5 @@ body:not(.page-id-70, .page-id-66) .grecaptcha-badge {
   background-color: var(--wp--preset--color--green);
   color: #fff;
   border: none;
+  font-size: var(--wp--preset--font-size--medium);
 }
