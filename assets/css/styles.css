@@ -358,3 +358,11 @@ body:not(.page-id-70, .page-id-66) .grecaptcha-badge {
   font-size: var(--wp--preset--font-size--medium);
   border-radius: 50px;
 }
+
+.wpcf7-submit {
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-color: var(--wp--preset--color--green);
+  color: #fff;
+  border: none;
+}
