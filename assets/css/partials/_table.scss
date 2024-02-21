@@ -7,3 +7,15 @@
     padding-bottom: 1em;
   }
 }
+
+.auto-width-table table {
+	width: auto;
+}
+
+.auto-width-table td {
+	padding: 0;
+}
+
+.auto-width-table td:nth-of-type(even) {
+	padding-left: 1rem;
+}
