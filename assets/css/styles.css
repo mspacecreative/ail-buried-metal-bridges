@@ -366,6 +366,10 @@ body:not(.page-id-70, .page-id-66) .grecaptcha-badge {
 .wpcf7 textarea {
   width: 100%;
   max-width: 400px;
+  padding: 1rem;
+}
+.wpcf7 input {
+  padding: 1rem;
 }
 
 .wpcf7-submit {

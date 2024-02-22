@@ -11,7 +11,13 @@
   border-radius: 50px;
 }
 
-.wpcf7 textarea {
-  width: 100%;
-  max-width: 400px;
+.wpcf7 {
+  textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 1rem;
+  }
+  input {
+    padding: 1rem;
+  }
 }
