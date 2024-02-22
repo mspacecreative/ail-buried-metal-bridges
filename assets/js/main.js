@@ -1,4 +1,7 @@
-document.querySelector('.keywords-select').innerHTML = 
+selectDropdown = document.querySelector('.keywords-select');
+
+if (selectDropdown) {
+selectDropdown.innerHTML = 
 "<option value='Please choose one option'>— Select One Topic —</option>"
 	+ "<optgroup label='Innovation'>" +
 		"<option value='Emerging Applications'>Emerging Applications</option>" +
@@ -33,3 +36,4 @@ document.querySelector('.keywords-select').innerHTML =
 		"<option value='Seismic'>Seismic</option>" +
 		"<option value='Safety'>Safety</option>" +
 		"<option value='Other'>Other</option>";
+}
