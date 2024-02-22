@@ -1,5 +1,5 @@
 document.querySelector('.keywords-select').innerHTML = 
-"<option value='Please choose one option'>— Please choose one option —</option>"
+"<option value='Please choose one option'>— Select One Topic —</option>"
 	+ "<optgroup label='Innovation'>" +
 		"<option value='Emerging Applications'>Emerging Applications</option>" +
 		"<option value='Value Engineering and Life Cycle Costing'>Value Engineering and Life Cycle Costing</option>" + 
