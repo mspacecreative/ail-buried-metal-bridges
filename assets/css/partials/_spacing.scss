@@ -69,3 +69,10 @@ body * {
     max-width: 100%;
   }
 }
+
+.astm-content {
+  @media (max-width: 480px) {
+    flex-wrap: wrap;
+    row-gap: 20px;
+  }
+}

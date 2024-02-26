@@ -235,6 +235,13 @@ body * {
   }
 }
 
+@media (max-width: 480px) {
+  .astm-content {
+    flex-wrap: wrap;
+    row-gap: 20px;
+  }
+}
+
 .buried-bridges--footer {
   background: url(../img/textures/Brushed-metal-light.jpg) no-repeat center center scroll;
   background-size: cover;
