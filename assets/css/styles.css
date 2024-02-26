@@ -375,7 +375,7 @@ body:not(.page-id-70, .page-id-66) .grecaptcha-badge {
   max-width: 400px;
   padding: 10px;
 }
-.wpcf7 input:not([type=file]) {
+.wpcf7 input:not([type=file], [type=submit]) {
   padding: 10px;
 }
 
